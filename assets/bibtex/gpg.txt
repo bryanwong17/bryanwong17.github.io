@@ -1,0 +1,6 @@
+@inproceedings{dong2022genderpaygap,
+  title={Analyzing Gender Pay Gap in STEM Fields by Life Trajectory},
+  author={Dong, Wenchao and Wong Bryan and Bhatti Hasnain Irshad and Kim Lanu and Cha Meeyoung},
+  booktitle={International Conference on Computational Social Science (IC2S2) and Korea Computer Congress.},
+  year={2022}
+}

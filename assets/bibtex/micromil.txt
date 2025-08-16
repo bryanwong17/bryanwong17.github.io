@@ -1,0 +1,6 @@
+@article{kim2024micromil,
+  title={MicroMIL: Graph-based contextual multiple instance learning for patient diagnosis using microscopy images},
+  author={Kim, JongWoo and Wong, Bryan and Fu, Huazhu and Qui{\~n}ones, Willmer Rafell and Yi, MunYong},
+  journal={arXiv preprint arXiv:2407.21604},
+  year={2024}
+}

@@ -1,0 +1,6 @@
+@article{robles2025spatial,
+  title={Spatial Context-Driven Positive Pair Sampling for Enhanced Histopathology Image Classification},
+  author={Robles, Willmer Rafell Quinones and Noree, Sakonporn and Ko, Young Sin and Wong, Bryan and Kim, Jongwoo and Yi, Mun Yong},
+  journal={arXiv preprint arXiv:2503.05170},
+  year={2025}
+}

@@ -1,0 +1,8 @@
+@inproceedings{hong2025towards,
+  title={Towards Classifying Histopathological Microscope Images as Time Series Data},
+  author={Hong, Sungrae and Park, Hyeongmin and Ko, Youngsin and Lee, Sol and Wong, Bryan and Yi, Mun},
+  booktitle={2025 IEEE 22nd International Symposium on Biomedical Imaging (ISBI)},
+  pages={1--5},
+  year={2025},
+  organization={IEEE}
+}

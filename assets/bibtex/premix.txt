@@ -1,0 +1,7 @@
+PreMix: Boosting Multiple Instance Learning in Digital Histopathology through Pre-training with Intra-Batch Slide Mixing@article{wong2024premix,
+  title={PreMix: Boosting Multiple Instance Learning in Digital Histopathology through Pre-training with Intra-Batch Slide Mixing},
+  author={Wong, Bryan and Yi, Mun Yong},
+  journal={arXiv e-prints},
+  pages={arXiv--2408},
+  year={2024}
+}

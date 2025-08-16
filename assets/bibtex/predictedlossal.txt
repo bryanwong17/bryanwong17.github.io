@@ -1,0 +1,10 @@
+@article{kim2024predicted,
+  title={A predicted-loss based active learning approach for robust cancer pathology image analysis in the workplace},
+  author={Kim, Mujin and Qui{\~n}ones Robles, Willmer Rafell and Ko, Young Sin and Wong, Bryan and Lee, Sol and Yi, Mun Yong},
+  journal={BMC Medical Imaging},
+  volume={24},
+  number={1},
+  pages={5},
+  year={2024},
+  publisher={Springer}
+}

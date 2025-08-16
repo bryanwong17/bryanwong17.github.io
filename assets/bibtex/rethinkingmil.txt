@@ -1,0 +1,8 @@
+@inproceedings{wong2025rethinking,
+  title={Rethinking pre-trained feature extractor selection in multiple instance learning for whole slide image classification},
+  author={Wong, Bryan and Hong, Sungrae and Yi, Mun Yong},
+  booktitle={2025 IEEE 22nd International Symposium on Biomedical Imaging (ISBI)},
+  pages={1--5},
+  year={2025},
+  organization={IEEE}
+}

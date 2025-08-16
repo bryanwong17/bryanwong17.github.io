@@ -1,0 +1,6 @@
+@article{kim2024not,
+  title={Not All Options Are Created Equal: Textual Option Weighting for Token-Efficient LLM-Based Knowledge Tracing},
+  author={Kim, JongWoo and Chu, SeongYeub and Wong, Bryan and Yi, Mun},
+  journal={arXiv preprint arXiv:2410.12872},
+  year={2024}
+}

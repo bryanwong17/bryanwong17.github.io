@@ -1,0 +1,6 @@
+@article{kim2024leveraging,
+  title={Leveraging multi-facet paths for heterogeneous graph representation learning},
+  author={Kim, JongWoo and Chu, SeongYeub and Park, HyeongMin and Wong, Bryan and Yi, MunYong},
+  journal={arXiv preprint arXiv:2407.20648},
+  year={2024}
+}

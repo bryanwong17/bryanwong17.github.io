@@ -1,0 +1,6 @@
+@article{wong2025few,
+  title={Few-Shot Learning from Gigapixel Images via Hierarchical Vision-Language Alignment and Modeling},
+  author={Wong, Bryan and Kim, Jong Woo and Fu, Huazhu and Yi, Mun Yong},
+  journal={arXiv preprint arXiv:2505.17982},
+  year={2025}
+}
