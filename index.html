@@ -2,45 +2,40 @@
 <html lang="en-US">
   <head>
     <meta charset="UTF-8">
-    <meta name="google-site-verification" content="nDmUBBTvYFq5m3vAAqfqO-OHWyOuo9dGHWp3h-p-IKE" />
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bryan Wong | KAIST</title>
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JCX8T73CCP"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];  
+      window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-JCX8T73CCP');
     </script>
-    <title>Bryan Wong | KAIST</title>
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Academic personal homepage of Bryan Wong, Ph.D. Candidate at KAIST.">
-    <meta name="keywords" content="Bryan Wong, KAIST, Data Science, Multimodal AI, Gigapixel Images">
-    
-    <link rel="canonical" href="https://minimal-light-theme.yliu.me/"/>
-
-    <link rel="icon" media="(prefers-color-scheme:dark)" href="./assets/img/favicon-dark.png" type="image/png" />
-    <link rel="icon" media="(prefers-color-scheme:light)" href="./assets/img/favicon.png" type="image/png" />
-    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
-
-    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css crossorigin=anonymous>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <link rel="stylesheet" href="./assets/css/font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
     <link rel="stylesheet" href="./assets/css/publications.css">
-    
+
     <style>
+      /* Increase global width and reduce side whitespace */
+      .wrapper {
+        max-width: 1100px !important; 
+        margin: 0 auto;
+      }
+      /* Ensure images fill their 4-column container */
       .teaser {
         width: 100% !important;
         height: auto !important;
-        display: block;
-        margin-bottom: 5px;
+        border-radius: 4px;
       }
-      .abbr .badge {
-        display: block;
-        text-align: center;
+      /* Optional: Adjust header width if it feels too narrow now */
+      header {
+        width: 280px !important;
+      }
+      section {
+        width: calc(100% - 310px) !important;
       }
     </style>
   </head>
@@ -51,48 +46,45 @@
         <h1>Bryan Wong</h1>
         <position style="font-size:1.10rem;">Ph.D. Candidate</position>
         <br>
-        <a href="" rel="noopener"><autocolor>KAIST</autocolor></a>
+        <a href="https://www.kaist.ac.kr/en/">KAIST</a>
         <br>
         <email>bryan.wong (at) kaist.ac.kr</email>
         <br><br>
         <div class="social-icons">
-          <a style="margin: 0 5px 0 0" href="https://scholar.google.com/citations?user=4RmNmQcAAAAJ&hl=en"><i class="ai ai-google-scholar" style="font-size:1.2rem"></i></a>  
-          <a style="margin: 0 5px 0 0" href="assets/files/202601_Bryan_CV.pdf"><i class="ai ai-cv" style="font-size:1.3rem;"></i></a>
-          <a style="margin: 0 5px 0 0" href="https://github.com/bryanwong17"><i class="fab fa-github"></i></a>
-          <a style="margin: 0 5px 0 0" href="https://www.linkedin.com/in/bryanwongg/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://scholar.google.com/citations?user=4RmNmQcAAAAJ&hl=en"><i class="ai ai-google-scholar"></i></a>  
+          <a href="assets/files/202601_Bryan_CV.pdf"><i class="ai ai-cv"></i></a>
+          <a href="https://github.com/bryanwong17"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/bryanwongg/"><i class="fab fa-linkedin"></i></a>
         </div>
       </header>
 
       <section>
-        <h2 id="about-me">About Me</h2>
-        <p>I am currently a Ph.D. candidate in Data Science at <a href="https://www.kaist.ac.kr/en/">KAIST</a>, advised by <a href="http://kirc.kaist.ac.kr/people_director.html">Prof. Mun Yong Yi</a>, and have been fortunate to collaborate with and be mentored by <a href="https://hzfu.github.io/">Dr. Huazhu Fu</a> at <a href="https://www.a-star.edu.sg/">A*STAR</a>. Before beginning my Ph.D., I received my M.S. in Data Science from KAIST in 2023 and completed my B.S. in Computer Science at <a href="https://www.ntust.edu.tw/?Lang=en" target="_blank">NTUST</a> in 2021, graduating one year early.</p>
-        <p>My current research focuses on <strong>multimodal AI for gigapixel medical images</strong>, advancing how <strong>vision–language models (VLMs) and multimodal LLMs</strong> understand large, complex visual data.</p>
+        <h2>About Me</h2>
+        <p>I am currently a Ph.D. candidate in Data Science at <strong>KAIST</strong>, advised by Prof. Mun Yong Yi. My research focuses on <strong>multimodal AI for gigapixel medical images</strong>, advancing how vision–language models (VLMs) and multimodal LLMs understand large, complex visual data.</p>
 
-        <h2 id="news">News</h2>
+        <h2>News</h2>
         <ul>
-          <li><strong>[Jan. 2026]</strong> Outstanding Award Recipient (Best Runner-up) by GSDS, KAIST.</li>
-          <li><strong>[Sep. 2025]</strong> HiVE-MIL accepted to <strong>NeurIPS 2025</strong>!</li>
-          <li><strong>[Aug. 2025]</strong> LOKT accepted to <strong>EMNLP (Findings) 2025</strong>.</li>
-          <li><strong>[Jun. 2025]</strong> MicroMIL accepted to <strong>MICCAI 2025</strong>.</li>
+          <li><strong>[Jan. 2026]</strong> Outstanding Award Recipient (Best Runner-up), GSDS, KAIST.</li>
+          <li><strong>[Sep. 2025]</strong> One paper on HiVE-MIL accepted to <strong>NeurIPS 2025</strong>!</li>
         </ul>
 
-        <h2 id="publications" style="margin: 2px 0px 10px;">Publications</h2>
+        <h2>Publications</h2>
         <div class="publications">
           <ol class="bibliography">
 
             <li>
               <div class="pub-row row">
                 <div class="col-sm-4 abbr">
-                  <img src="./assets/img/pub_hivemil_thumb.png" class="teaser img-fluid z-depth-1" style="width: 100%; height: auto;" />
+                  <img src="./assets/img/pub_hivemil_thumb.png" class="teaser img-fluid z-depth-1" />
                   <abbr class="badge">NeurIPS</abbr>
                 </div>
                 <div class="col-sm-8">
                   <div class="title"><a href="https://arxiv.org/abs/2505.17982">Few-Shot Learning from Gigapixel Images via Hierarchical Vision-Language Alignment and Modeling</a></div>
                   <div class="author"><strong>Bryan Wong*</strong>, Jongwoo Kim*, Huazhu Fu, and Mun Yong Yi</div>
-                  <div class="periodical"><em>NeurIPS, 2025.</em></div>
+                  <div class="periodical"><em>NeurIPS 2025.</em></div>
                   <div class="links">
-                    <a href="https://arxiv.org/abs/2505.17982" class="btn btn-sm" target="_blank">PDF</a>
-                    <a href="https://github.com/bryanwong17/HiVE-MIL" class="btn btn-sm" target="_blank">Code</a>
+                    <a href="https://arxiv.org/abs/2505.17982" target="_blank">PDF</a>
+                    <a href="https://github.com/bryanwong17/HiVE-MIL" target="_blank">Code</a>
                   </div>
                 </div>
               </div>
@@ -101,16 +93,13 @@
             <li>
               <div class="pub-row row">
                 <div class="col-sm-4 abbr">
-                  <img src="./assets/img/pub_lokt_thumb.png" class="teaser img-fluid z-depth-1" style="width: 100%; height: auto;" />
+                  <img src="./assets/img/pub_lokt_thumb.png" class="teaser img-fluid z-depth-1" />
                   <abbr class="badge">EMNLP</abbr>
                 </div>
                 <div class="col-sm-8">
-                  <div class="title"><a href="https://arxiv.org/abs/2410.12872">Not All Options Are Created Equal: Textual Option Weighting for Token-Efficient LLM-Based Knowledge Tracing</a></div>
+                  <div class="title"><a href="https://arxiv.org/abs/2410.12872">Not All Options Are Created Equal: Textual Option Weighting for Knowledge Tracing</a></div>
                   <div class="author">Jongwoo Kim*, SeongYeub Chu*, <strong>Bryan Wong</strong>, and Mun Yong Yi</div>
-                  <div class="periodical"><em>EMNLP Findings, 2025.</em></div>
-                  <div class="links">
-                    <a href="https://arxiv.org/abs/2410.12872" class="btn btn-sm" target="_blank">PDF</a>
-                  </div>
+                  <div class="periodical"><em>EMNLP (Findings) 2025.</em></div>
                 </div>
               </div>
             </li>
@@ -118,50 +107,13 @@
             <li>
               <div class="pub-row row">
                 <div class="col-sm-4 abbr">
-                  <img src="./assets/img/pub_mf2vec_thumb.png" class="teaser img-fluid z-depth-1" style="width: 100%; height: auto;" />
-                  <abbr class="badge">CIKM</abbr>
-                </div>
-                <div class="col-sm-8">
-                  <div class="title"><a href="https://arxiv.org/abs/2407.20648">Leveraging Multi-facet Paths for Heterogeneous Graph Representation Learning</a></div>
-                  <div class="author">Jongwoo Kim, SeongYeub Chu, Hyeongmin Park, <strong>Bryan Wong</strong>, and Mun Yong Yi</div>
-                  <div class="periodical"><em>CIKM, 2025.</em></div>
-                  <div class="links">
-                    <a href="https://arxiv.org/abs/2407.20648" class="btn btn-sm" target="_blank">PDF</a>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="pub-row row">
-                <div class="col-sm-4 abbr">
-                  <img src="./assets/img/pub_micromil_thumb.png" class="teaser img-fluid z-depth-1" style="width: 100%; height: auto;" />
+                  <img src="./assets/img/pub_micromil_thumb.png" class="teaser img-fluid z-depth-1" />
                   <abbr class="badge">MICCAI</abbr>
                 </div>
                 <div class="col-sm-8">
-                  <div class="title"><a href="https://arxiv.org/abs/2407.21604">MicroMIL: Graph-based Contextual Multiple Instance Learning for Patient Diagnosis Using Microscopy Images</a></div>
+                  <div class="title"><a href="https://arxiv.org/abs/2407.21604">MicroMIL: Graph-based Contextual Multiple Instance Learning</a></div>
                   <div class="author">Jongwoo Kim*, <strong>Bryan Wong*</strong>, Huazhu Fu, and Mun Yong Yi</div>
-                  <div class="periodical"><em>MICCAI, 2025.</em></div>
-                  <div class="links">
-                    <a href="https://arxiv.org/abs/2407.21604" class="btn btn-sm" target="_blank">PDF</a>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="pub-row row">
-                <div class="col-sm-4 abbr">
-                  <img src="./assets/img/pub_rethinkingmil_thumb.png" class="teaser img-fluid z-depth-1" style="width: 100%; height: auto;" />
-                  <abbr class="badge">ISBI</abbr>
-                </div>
-                <div class="col-sm-8">
-                  <div class="title"><a href="https://arxiv.org/abs/2408.01167">Rethinking Pre-Trained Feature Extractor Selection in MIL for WSI Classification</a></div>
-                  <div class="author"><strong>Bryan Wong</strong>, Sungrae Hong, and Mun Yong Yi</div>
-                  <div class="periodical"><em>IEEE ISBI, 2025.</em></div>
-                  <div class="links">
-                    <a href="https://arxiv.org/abs/2408.01167" class="btn btn-sm" target="_blank">PDF</a>
-                  </div>
+                  <div class="periodical"><em>MICCAI 2025.</em></div>
                 </div>
               </div>
             </li>
@@ -169,35 +121,27 @@
           </ol>
         </div>
 
-        <h2 id="preprints" style="margin: 20px 0px 10px;">Preprints</h2>
+        <h2>Preprints</h2>
         <div class="publications">
           <ol class="bibliography">
             <li>
               <div class="pub-row row">
                 <div class="col-sm-4 abbr">
-                  <img src="./assets/img/pub_pospairsampling_thumb.png" class="teaser img-fluid z-depth-1" style="width: 100%; height: auto;" />
+                  <img src="./assets/img/pub_pospairsampling_thumb.png" class="teaser img-fluid z-depth-1" />
                   <abbr class="badge">Preprint</abbr>
                 </div>
                 <div class="col-sm-8">
                   <div class="title"><a href="https://arxiv.org/abs/2503.05170">Leveraging Spatial Context for Positive Pair Sampling in Histopathology</a></div>
                   <div class="author">Willmer Robles, <strong>Bryan Wong</strong>, and Mun Yong Yi</div>
-                  <div class="periodical"><em>ArXiv, 2025.</em></div>
+                  <div class="periodical"><em>Preprint, 2025.</em></div>
                 </div>
               </div>
             </li>
           </ol>
         </div>
 
-        <h2 id="academic-services">Academic Services</h2>
-        <ul>
-          <li><strong>Reviewer:</strong> MICCAI 2025</li>
-          <li><strong>Student Volunteer:</strong> MICCAI 2025</li>
-        </ul>
-
-        <br>
-        <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank">Minimal Light</a> theme.</small></p>
+        <p><small>Powered by Jekyll and Minimal Light.</small></p>
       </section>
     </div>
-    <script src="/assets/js/scale.fix.js"></script>
   </body>
 </html>
