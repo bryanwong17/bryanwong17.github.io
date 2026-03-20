@@ -1,0 +1,44 @@
+"AJP":
+  url: https://aapt.scitation.org/journal/ajp
+  color: "#00369f"
+
+"PhysRev":
+  url: https://journals.aps.org/
+
+"Vision":
+  color: "#009f36"
+
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#1f4b99"
+
+"EMNLP":
+  url: https://2025.emnlp.org/
+  color: "#8b1e3f"
+
+"CIKM":
+  url: https://cikm2025.org/
+  color: "#0b7a75"
+
+"MICCAI":
+  url: https://conferences.miccai.org/2025/en/default.asp
+  color: "#8a4b08"
+
+"NAACL":
+  url: https://2025.naacl.org/
+  color: "#205295"
+
+"ISBI":
+  url: https://biomedicalimaging.org/2025/
+  color: "#005f73"
+
+"BMC":
+  url: https://bmcmedimaging.biomedcentral.com/
+  color: "#2f855a"
+
+"IC2S2":
+  url: https://boothuchicagocaai.wixsite.com/website-2/
+  color: "#6d28d9"
+
+"Preprint":
+  color: "#6b7280"
