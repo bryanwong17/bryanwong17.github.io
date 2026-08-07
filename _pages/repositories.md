@@ -9,7 +9,7 @@ nav_order: 3
 ## GitHub Stats
 
 {% if site.data.repositories.github_users %}
-  {% for user in site.data.repositories.github_users %}
+{% for user in site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% include repository/repo_user.liquid username=user %}
 
