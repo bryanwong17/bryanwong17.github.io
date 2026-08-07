@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /
+subtitle: Visiting Ph.D. Researcher @ A*STAR IAIC | Ph.D. Candidate @ KAIST
 
 profile:
   align: right
@@ -26,8 +27,8 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently a Ph.D. candidate at the <a href="https://gsds.kaist.ac.kr/">Graduate School of Data Science (GSDS), KAIST</a>, advised by <a href="http://kirc.kaist.ac.kr/people_director.html">Prof. Mun Yong Yi</a>. I am also an incoming visiting Ph.D. researcher at the <a href="https://www.a-star.edu.sg/i2r">Institute for Infocomm Research (I<sup>2</sup>R), A\*STAR</a>, under the supervision of <a href="https://alex-xun-xu.github.io/">Dr. Xun Xu</a>.
+I am a Ph.D. candidate at the [Graduate School of Data Science (GSDS), KAIST](https://gsds.kaist.ac.kr/), advised by [Prof. Mun Yong Yi](http://kirc.kaist.ac.kr/people_director.html), and a Visiting Ph.D. Researcher at the [Institute of Advanced Intelligence and Computing (IAIC), A*STAR](https://www.a-star.edu.sg/iaic), supervised by [Dr. Xun Xu](https://alex-xun-xu.github.io/) and [Dr. Huazhu Fu](https://hzfu.github.io/).
 
-I am grateful to be a recipient of the <a href="https://www.a-star.edu.sg/scholarships/home/international-awards/astar-research-attachment-programme-arap">A\*STAR Research Attachment Programme (ARAP)</a>, which supports my research for 14 months at I<sup>2</sup>R, A\*STAR.
+I am grateful to be a recipient of the [A\*STAR Research Attachment Programme (ARAP)](https://www.a-star.edu.sg/scholarships/home/international-awards/astar-research-attachment-programme-arap) fellowship (June 2026 – Aug 2027), which supports my time at A\*STAR IAIC.
 
-My recent research focuses on multimodal AI in the medical domain, especially VLMs, multimodal LLMs, and agentic AI for gigapixel medical images. I am also fortunate to collaborate closely with <a href="https://hzfu.github.io/">Dr. Huazhu Fu</a> at <a href="https://www.a-star.edu.sg/ihpc">IHPC, A\*STAR</a>.
+My research centers on multimodal AI for gigapixel medical images, including vision-language models, multimodal LLMs, and agentic AI.

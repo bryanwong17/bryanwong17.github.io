@@ -2,6 +2,7 @@ github_users:
   - bryanwong17
 
 project_repos:
+  - bryanwong17/BEACON
   - bryanwong17/HiVE-MIL
   - bryanwong17/MicroMIL
   - bryanwong17/MIL-Feature-Extractor-Selection
