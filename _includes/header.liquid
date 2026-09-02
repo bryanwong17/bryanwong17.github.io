@@ -120,8 +120,12 @@
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
-              <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              <button id="search-toggle" title="Search (Ctrl K)" onclick="openSearchModal()">
+                <span class="nav-link search-btn">
+                  <i class="ti ti-search"></i>
+                  <span class="search-label">Search</span>
+                  <span class="search-shortcut">ctrl k</span>
+                </span>
               </button>
             </li>
           {% endif %}

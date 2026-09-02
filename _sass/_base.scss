@@ -404,6 +404,23 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+#search-toggle {
+  .search-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .search-shortcut {
+    font-size: 0.7rem;
+    line-height: 1;
+    padding: 0.15rem 0.35rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 4px;
+    opacity: 0.7;
+  }
+}
+
 // Social (bottom)
 
 .social {

@@ -89,11 +89,19 @@ ninja.data = [
           title: '{{ title | escape | emojify | truncatewords: 13 }}',
           description: "{{ item.description | strip_html | strip_newlines | escape | strip }}",
           section: "{{ collection.label | capitalize }}",
-          {%- unless item.inline -%}
+          {%- if item.inline -%}
+            {%- assign inline_link_parts = item.content | split: 'href="' -%}
+            {%- if inline_link_parts.size > 1 -%}
+              {%- assign inline_link = inline_link_parts[1] | split: '"' | first -%}
+              handler: () => {
+                window.open("{{ inline_link }}", "_blank");
+              },
+            {%- endif -%}
+          {%- else -%}
             handler: () => {
               window.location.href = "{{ item.url | relative_url }}";
             },
-          {%- endunless -%}
+          {%- endif -%}
         },
       {%- endfor -%}
     {%- endif -%}
