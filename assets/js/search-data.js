@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "CV up-to-date as of 2026.03",
+          description: "CV up-to-date as of 2026.09",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -33,70 +33,108 @@ ninja.data = [{
         },{id: "news-graduated-one-year-early-with-a-b-s-in-computer-science-from-ntust-taiwan",
           title: 'Graduated one year early with a B.S. in Computer Science from NTUST! :taiwan:...',
           description: "",
-          section: "News",},{id: "news-started-the-m-s-program-at-the-graduate-school-of-data-science-gsds-kaist",
+          section: "News",handler: () => {
+                window.open("https://www.ntust.edu.tw/?Lang=en", "_blank");
+              },},{id: "news-started-the-m-s-program-at-the-graduate-school-of-data-science-gsds-kaist",
           title: 'Started the M.S. program at the Graduate School of Data Science (GSDS), KAIST....',
           description: "",
-          section: "News",},{id: "news-a-paper-on-gender-pay-gap-analysis-has-been-accepted-at-ic2s2-2022-and-kcc-2022",
+          section: "News",handler: () => {
+                window.open("https://gsds.kaist.ac.kr/eng", "_blank");
+              },},{id: "news-a-paper-on-gender-pay-gap-analysis-has-been-accepted-at-ic2s2-2022-and-kcc-2022",
           title: 'A paper on gender pay-gap analysis has been accepted at IC2S2 2022 and...',
           description: "",
-          section: "News",},{id: "news-successfully-defended-my-master-s-thesis",
+          section: "News",handler: () => {
+                window.open("https://boothuchicagocaai.wixsite.com/website-2/", "_blank");
+              },},{id: "news-successfully-defended-my-master-s-thesis",
           title: 'Successfully defended my Master’s thesis!',
           description: "",
           section: "News",},{id: "news-started-the-ph-d-program-at-the-graduate-school-of-data-science-gsds-kaist",
           title: 'Started the Ph.D. program at the Graduate School of Data Science (GSDS), KAIST....',
           description: "",
-          section: "News",},{id: "news-a-paper-on-predicted-loss-active-learning-has-been-accepted-at-bmc-medical-imaging",
+          section: "News",handler: () => {
+                window.open("https://gsds.kaist.ac.kr/eng", "_blank");
+              },},{id: "news-a-paper-on-predicted-loss-active-learning-has-been-accepted-at-bmc-medical-imaging",
           title: 'A paper on predicted-loss active learning has been accepted at BMC Medical Imaging!...',
           description: "",
-          section: "News",},{id: "news-two-papers-rethinking-mil-fe-and-time-series-mil-have-been-accepted-at-ieee-isbi-2025",
+          section: "News",handler: () => {
+                window.open("https://bmcmedimaging.biomedcentral.com/", "_blank");
+              },},{id: "news-two-papers-rethinking-mil-fe-and-time-series-mil-have-been-accepted-at-ieee-isbi-2025",
           title: 'Two papers (Rethinking MIL FE and Time Series MIL) have been accepted at...',
           description: "",
-          section: "News",},{id: "news-one-paper-rmts-has-been-accepted-at-naacl-findings-2025",
+          section: "News",handler: () => {
+                window.open("https://arxiv.org/abs/2408.01167", "_blank");
+              },},{id: "news-one-paper-rmts-has-been-accepted-at-naacl-findings-2025",
           title: 'One paper (RMTS) has been accepted at NAACL Findings 2025!',
           description: "",
-          section: "News",},{id: "news-new-preprint-few-shot-learning-from-gigapixel-images-via-hierarchical-vision-language-alignment-and-modeling",
+          section: "News",handler: () => {
+                window.open("https://arxiv.org/abs/2410.14202", "_blank");
+              },},{id: "news-new-preprint-few-shot-learning-from-gigapixel-images-via-hierarchical-vision-language-alignment-and-modeling",
           title: 'New preprint: Few-Shot Learning from Gigapixel Images via Hierarchical Vision-Language Alignment and Modeling....',
           description: "",
-          section: "News",},{id: "news-one-paper-micromil-has-been-accepted-at-miccai-2025",
+          section: "News",handler: () => {
+                window.open("https://arxiv.org/abs/2505.17982", "_blank");
+              },},{id: "news-one-paper-micromil-has-been-accepted-at-miccai-2025",
           title: 'One paper (MicroMIL) has been accepted at MICCAI 2025!',
           description: "",
-          section: "News",},{id: "news-selected-as-a-student-volunteer-at-miccai-2025-held-in-daejeon-south-korea-from-sept-23-to-27-2025",
+          section: "News",handler: () => {
+                window.open("https://arxiv.org/abs/2407.21604", "_blank");
+              },},{id: "news-selected-as-a-student-volunteer-at-miccai-2025-held-in-daejeon-south-korea-from-sept-23-to-27-2025",
           title: 'Selected as a student volunteer at MICCAI 2025, held in Daejeon, South Korea,...',
           description: "",
-          section: "News",},{id: "news-one-paper-mf2vec-has-been-accepted-at-cikm-2025",
+          section: "News",handler: () => {
+                window.open("https://conferences.miccai.org/2025/en/default.asp", "_blank");
+              },},{id: "news-one-paper-mf2vec-has-been-accepted-at-cikm-2025",
           title: 'One paper (MF2Vec) has been accepted at CIKM 2025!',
           description: "",
-          section: "News",},{id: "news-one-paper-lokt-has-been-accepted-at-emnlp-findings-2025",
+          section: "News",handler: () => {
+                window.open("https://arxiv.org/abs/2407.20648", "_blank");
+              },},{id: "news-one-paper-lokt-has-been-accepted-at-emnlp-findings-2025",
           title: 'One paper (LOKT) has been accepted at EMNLP Findings 2025!',
           description: "",
-          section: "News",},{id: "news-attending-and-presenting-micromil-at-miccai-2025-in-daejeon-south-korea-kr",
+          section: "News",handler: () => {
+                window.open("https://arxiv.org/abs/2410.12872v2", "_blank");
+              },},{id: "news-attending-and-presenting-micromil-at-miccai-2025-in-daejeon-south-korea-kr",
           title: 'Attending and presenting MicroMIL at MICCAI 2025 in Daejeon, South Korea :kr:',
           description: "",
-          section: "News",},{id: "news-one-paper-hive-mil-has-been-accepted-at-neurips-2025",
+          section: "News",handler: () => {
+                window.open("https://arxiv.org/abs/2407.21604", "_blank");
+              },},{id: "news-one-paper-hive-mil-has-been-accepted-at-neurips-2025",
           title: 'One paper (HiVE-MIL) has been accepted at NeurIPS 2025!',
           description: "",
-          section: "News",},{id: "news-awarded-the-daewoong-foundation-global-scholarship-program-nov-2025-feb-2026-supporting-outstanding-international-students-in-south-korea",
+          section: "News",handler: () => {
+                window.open("https://arxiv.org/abs/2505.17982", "_blank");
+              },},{id: "news-awarded-the-daewoong-foundation-global-scholarship-program-nov-2025-feb-2026-supporting-outstanding-international-students-in-south-korea",
           title: 'Awarded the Daewoong Foundation Global Scholarship Program (Nov. 2025-Feb. 2026), supporting outstanding international...',
           description: "",
-          section: "News",},{id: "news-attending-and-presenting-hive-mil-at-neurips-2025-in-san-diego-california-usa-us",
+          section: "News",handler: () => {
+                window.open("https://www.studykoreanews.com/news/articleView.html?idxno=1602", "_blank");
+              },},{id: "news-attending-and-presenting-hive-mil-at-neurips-2025-in-san-diego-california-usa-us",
           title: 'Attending and presenting HiVE-MIL at NeurIPS 2025 in San Diego, California, USA :us:...',
           description: "",
-          section: "News",},{id: "news-awarded-the-outstanding-award-best-runner-up-from-the-graduate-school-of-data-science-gsds-kaist-based-on-the-2025-annual-research-performance-evaluation",
+          section: "News",handler: () => {
+                window.open("https://arxiv.org/abs/2505.17982", "_blank");
+              },},{id: "news-awarded-the-outstanding-award-best-runner-up-from-the-graduate-school-of-data-science-gsds-kaist-based-on-the-2025-annual-research-performance-evaluation",
           title: 'Awarded the Outstanding Award (Best Runner-up) from the Graduate School of Data Science...',
           description: "",
           section: "News",},{id: "news-awarded-the-a-star-research-attachment-programme-arap-to-support-my-14-5-month-visiting-ph-d-research-jun-2026-aug-2027-under-the-supervision-of-dr-xun-xu",
           title: 'Awarded the A*STAR Research Attachment Programme (ARAP) to support my 14.5-month visiting Ph.D....',
           description: "",
-          section: "News",},{id: "news-one-paper-reasoning-trace-divergence-an-empirical-signal-for-trustworthy-black-box-mllms-in-histopathology-classification-has-been-accepted-at-miccai-2026",
+          section: "News",handler: () => {
+                window.open("https://www.a-star.edu.sg/scholarships/home/international-awards/astar-research-attachment-programme-arap", "_blank");
+              },},{id: "news-one-paper-reasoning-trace-divergence-an-empirical-signal-for-trustworthy-black-box-mllms-in-histopathology-classification-has-been-accepted-at-miccai-2026",
           title: 'One paper (Reasoning Trace Divergence: An Empirical Signal for Trustworthy Black-Box MLLMs in...',
           description: "",
-          section: "News",},{id: "news-moving-to-begin-my-a-star-research-attachment-programme-arap-in-singapore-singapore",
+          section: "News",handler: () => {
+                window.open("/assets/pdf/MICCAI_2026_Reasoning_Trace_Divergence.pdf", "_blank");
+              },},{id: "news-moving-to-begin-my-a-star-research-attachment-programme-arap-in-singapore-singapore",
           title: 'Moving to begin my A*STAR Research Attachment Programme (ARAP) in Singapore :singapore:!',
           description: "",
           section: "News",},{id: "news-new-preprint-beyond-relevance-bayesian-evidence-acquisition-for-agentic-whole-slide-image-reasoning",
           title: 'New preprint: Beyond Relevance: Bayesian Evidence Acquisition for Agentic Whole-Slide Image Reasoning.',
           description: "",
-          section: "News",},{
+          section: "News",handler: () => {
+                window.open("https://arxiv.org/abs/2608.05757", "_blank");
+              },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
