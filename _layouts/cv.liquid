@@ -28,17 +28,18 @@ layout: default
 
     <article>
       {% if page.cv_pdf %}
+        {% if page.cv_pdf contains '://' %}
+          {% assign cv_pdf_url = page.cv_pdf %}
+        {% else %}
+          {% assign cv_pdf_url = page.cv_pdf | prepend: 'assets/pdf/' | relative_url %}
+        {% endif %}
         <div class="pdf-embed-container">
-          <embed
-            {% if page.cv_pdf contains '://' %}
-              src="{{ page.cv_pdf }}"
-            {% else %}
-              src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-            {% endif %}
-            type="application/pdf"
-            width="100%"
-            height="600px"
-          >
+          <div class="pdf-embed-toolbar">
+            <a href="{{ cv_pdf_url }}" target="_blank" rel="noopener noreferrer" class="pdf-open-new-tab">
+              <i class="fa-solid fa-up-right-from-square"></i> Open full CV in a new tab
+            </a>
+          </div>
+          <embed src="{{ cv_pdf_url }}#view=FitH" type="application/pdf" width="100%" height="100%">
         </div>
       {% endif %}
 
@@ -94,17 +95,18 @@ layout: default
 
     <article>
       {% if page.cv_pdf %}
+        {% if page.cv_pdf contains '://' %}
+          {% assign cv_pdf_url = page.cv_pdf %}
+        {% else %}
+          {% assign cv_pdf_url = page.cv_pdf | prepend: 'assets/pdf/' | relative_url %}
+        {% endif %}
         <div class="pdf-embed-container">
-          <embed
-            {% if page.cv_pdf contains '://' %}
-              src="{{ page.cv_pdf }}"
-            {% else %}
-              src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-            {% endif %}
-            type="application/pdf"
-            width="100%"
-            height="600px"
-          >
+          <div class="pdf-embed-toolbar">
+            <a href="{{ cv_pdf_url }}" target="_blank" rel="noopener noreferrer" class="pdf-open-new-tab">
+              <i class="fa-solid fa-up-right-from-square"></i> Open full CV in a new tab
+            </a>
+          </div>
+          <embed src="{{ cv_pdf_url }}#view=FitH" type="application/pdf" width="100%" height="100%">
         </div>
       {% endif %}
 
@@ -164,8 +166,39 @@ layout: default
 <style>
   .pdf-embed-container {
     margin: 20px 0;
-    border: 1px solid #ddd;
+    border: 1px solid var(--global-divider-color, #ddd);
     border-radius: 4px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    min-height: 700px;
+  }
+
+  .pdf-embed-toolbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid var(--global-divider-color, #ddd);
+    background: var(--global-card-bg-color, transparent);
+    flex-shrink: 0;
+  }
+
+  .pdf-open-new-tab {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.85rem;
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+
+  .pdf-open-new-tab:hover {
+    text-decoration: underline;
+  }
+
+  .pdf-embed-container embed {
+    flex-grow: 1;
+    display: block;
   }
 </style>
