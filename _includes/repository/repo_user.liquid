@@ -1,34 +1,33 @@
-{% assign lang = site.lang | split: '-' | first %}
+{% assign stats = site.data.github_stats.users[include.username] %}
 
-{% case lang %}
-  {% when 'pt' %}
-    {% assign lang = site.lang %}
-
-  {% when 'zh' %}
-    {% assign lang_last = site.lang | split: '-' | last %}
-    {% case lang_last %}
-      {% when 'cn', 'sg', 'my', 'hans' %}
-        {% assign lang = 'cn' %}
-      {% when 'tw', 'hk', 'mo', 'hant' %}
-        {% assign lang = 'zh-tw' %}
-    {% endcase %}
-
-    {% comment %} Add a new language using when... if needed {% endcomment %}
-    {% comment %} If you still encounter language-display issues, check the available locale codes in github-readme-stats (different from ISO-639 standard used in your website) {% endcomment %}
-    {% comment %} https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales {% endcomment %}
-{% endcase %}
-
-<div class="repo p-2 text-center">
-  <a href="https://github.com/{{ include.username }}">
-    <img
-      class="only-light w-100"
-      alt="{{ include.username }}"
-      src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_icons=true"
-    >
-    <img
-      class="only-dark w-100"
-      alt="{{ include.username }}"
-      src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&locale={{ lang }}&show_icons=true"
-    >
-  </a>
+<div class="repo p-2">
+  <div class="card h-100">
+    <div class="card-body text-start">
+      {% if stats %}
+        <div class="repo-user-header">
+          <img class="repo-avatar" src="{{ stats.avatar_url }}" alt="{{ stats.login }}">
+          <div>
+            <a href="{{ stats.html_url }}" class="card-title repo-card-title">{{ stats.name | default: stats.login }}</a>
+            <div class="repo-user-handle">@{{ stats.login }}</div>
+          </div>
+        </div>
+        <div class="repo-stats-grid">
+          <div>
+            <span class="stat-value">{{ stats.public_repos }}</span>
+            <span class="stat-label">Repos</span>
+          </div>
+          <div>
+            <span class="stat-value">{{ stats.followers }}</span>
+            <span class="stat-label">Followers</span>
+          </div>
+          <div>
+            <span class="stat-value">{{ stats.total_stars }}</span>
+            <span class="stat-label">Total Stars</span>
+          </div>
+        </div>
+      {% else %}
+        <p class="card-text repo-fallback-text">{{ include.username }} — GitHub stats unavailable right now.</p>
+      {% endif %}
+    </div>
+  </div>
 </div>
