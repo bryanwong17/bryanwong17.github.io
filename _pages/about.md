@@ -32,4 +32,4 @@ I am a Ph.D. candidate at the [Graduate School of Data Science (GSDS), KAIST](ht
 
 I am grateful to be a recipient of the [A\*STAR Research Attachment Programme (ARAP)](https://www.a-star.edu.sg/scholarships/home/international-awards/astar-research-attachment-programme-arap) fellowship (June 2026 – Aug 2027), which supports my time at A\*STAR IAIC.
 
-My research centers on multimodal AI for gigapixel medical images, including vision-language models, multimodal LLMs, and agentic AI.
+My research builds multimodal and agentic AI systems that reason over gigapixel-scale images, with applications in medical diagnosis, visual question answering, and evidence grounding.
